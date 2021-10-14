@@ -5,5 +5,8 @@
   </PropertyGroup>
   <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <Import Project="$(NuGetPackageRoot)netstandard.library\2.0.0\build\netstandard2.0\NETStandard.Library.targets" Condition="Exists('$(NuGetPackageRoot)netstandard.library\2.0.0\build\netstandard2.0\NETStandard.Library.targets')" />
+    <Import Project="$(NuGetPackageRoot)xunit.core\2.4.1\build\xunit.core.targets" Condition="Exists('$(NuGetPackageRoot)xunit.core\2.4.1\build\xunit.core.targets')" />
+    <Import Project="$(NuGetPackageRoot)selenium.webdriver.chromedriver\94.0.4606.6100\build\Selenium.WebDriver.ChromeDriver.targets" Condition="Exists('$(NuGetPackageRoot)selenium.webdriver.chromedriver\94.0.4606.6100\build\Selenium.WebDriver.ChromeDriver.targets')" />
+    <Import Project="$(NuGetPackageRoot)autoitx.dotnet\3.3.14.5\build\AutoItX.Dotnet.targets" Condition="Exists('$(NuGetPackageRoot)autoitx.dotnet\3.3.14.5\build\AutoItX.Dotnet.targets')" />
   </ImportGroup>
 </Project>
